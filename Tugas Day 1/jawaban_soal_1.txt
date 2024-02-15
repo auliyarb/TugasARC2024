@@ -1,0 +1,20 @@
+Nama : Auliya Rahmah Basallamah
+NIM : 16423459
+
+
+Merge conflict terjadi ketika users membuat perubahan yang bertentangan pada baris atau file yang sama, namun pada branch yang berbeda.
+
+
+Cara Menanggulangi:
+- Untuk mengetahui commits mana yang menyebabkan conflict terjadi, gunakan "git log --merge --oneline"
+- Cek git status
+- Gunakan "get merge --abort" untuk mengembalikan ke keadaan semula sebelum di merge
+- Buka file yang terdapat conflict, misal menggunakan VSCode
+- Cari baris yang menyebabkan conflict yang ditandai dengan "<<<<< (nama branch saat ini) 
+(.......)
+========
+(.......)
+>>>>>> (nama branch lain)"
+- Edit code pada baris tersebut sesuai dengan perubahan yang diinginkan
+- Save file
+- Stage file dengan "git add" dan lakukan commit

@@ -1,0 +1,16 @@
+Nama : Auliya Rahmah Basallamah
+NIM : 16423459
+
+Git Rebase adalah sebuah proses menggeser serangkaian commit  suatu branch ke commit terakhir pada branch utama.
+
+Cara melakukan rebase:
+- Buka terminal, lalu ketik "git checkout -b (nama branch)
+- Buka code editor, edit source code
+- Lakukan "git add" dan commit
+- Sebelum dimasukkan ke branch utama, lakukan pull terlebih dahulu untuk memastikan apakah ada perubahan pada branch utama
+- Lakukan "git rebase (nama branch utama)"
+- Untuk mengetahui history commit, krtikkan "graph"
+- Supaya kedua branch sejajar, harus dilakukan merge
+- Lakukan "git checkout (branh utama)"
+- Lakukan "git rebase (nama branch)"
+- Lakukan "git push -u (nama branch utama)"

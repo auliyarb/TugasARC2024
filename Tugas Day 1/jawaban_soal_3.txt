@@ -1,0 +1,9 @@
+Nama : Auliya Rahmah Basallamah
+NIM : 16423459
+
+
+Fork adalah salinan dari sebuah repository yang tidak bergantung pada repository asli. Jika perubahan dilakukan terhadap repository yang telah didapat dengan fork, repository asli tidak akan berubah. Jika kita melakukan fork pada sebuah repository, kita akan mendapatkan repository tersebut beserta semua branch nya.
+
+Pull request adalah suatu permintaan untuk melakukan merge atas suatu perubahan dari suatu branch ke branch yang lain. Pull request dapat menampilkan perbedaan isi pada source branch dan target branch.
+
+Untuk melakukan fork dan pull request dapat dilakukan langsung di GitHub.
