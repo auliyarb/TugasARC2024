@@ -1,0 +1,58 @@
+body, html {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    background: linear-gradient(
+        0deg,
+        #ffc8dd 5%,
+        #ffafcc 10%,
+        #bde0fe 70%,
+        #a2d2ff 100%
+    );
+
+    background-repeat: no-repeat;
+    height: 100%;
+  }
+    .picttreeImage {
+        border-radius: 50%;
+        margin-top: 10px;
+  }
+    .picttreeImageContainer {
+        display : flex;
+        align-content: center;
+        justify-content: center;
+        height: 100px;
+  }
+    .name {
+        display: flex;
+        align-content: center;
+        justify-content: center;
+        color: #9a66b9;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 1.2rem;
+  }
+
+  a {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    border: 1px #aa76c7 solid;
+    background-color: #b479d7;
+    text-decoration: none;
+    font-family: Garamond, serif;
+    font-size: 1rem;
+    color: #eddce7;
+    margin: 15px;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding: 1px;
+    border-radius: 20px;
+  }
+  a:hover {
+    color: #f9eff5;
+    background-color: #9651be;
+    transform: scale(1.1);
+    box-shadow: 5px 5px 10px 2px #e6d4ec;
+  }
