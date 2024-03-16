@@ -1,0 +1,4 @@
+Nama : Auliya Rahmah Basallamah
+NIM : 16423459
+
+Axios adalah library JavaScript populer yang digunakan untuk membuat HTTP requests dari browser atau Node.js. Axios menyederhanakan proses pengiriman asynchronous HTTP requests ke server dan menangani responsnya. Axios mendukung fitur seperti interceptors, menangani requests dan response header, dan menangani berbagai tipe data, seperti JSON. Axios banyak digunakan dalam web development untuk emngan=mbil data dari API dan berinteraksi dengan server.
